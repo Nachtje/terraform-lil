@@ -22,5 +22,5 @@ resource "aws_instance" "secondserver" {
     Name = "identifiertag"
   }
 
-  subnet_id = "${aws_subnet.subnet2.id}"
+  subnet_id = "${aws_subnet.nna_subnet2.id}"
 }
